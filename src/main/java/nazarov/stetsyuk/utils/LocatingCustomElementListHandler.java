@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+//@Component
 public class LocatingCustomElementListHandler implements InvocationHandler {
 
     private final ElementLocator locator;

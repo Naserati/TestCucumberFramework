@@ -4,7 +4,7 @@ import nazarov.stetsyuk.controllers.Element;
 import org.openqa.selenium.WebElement;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class WrapperFactory {
 
     /**

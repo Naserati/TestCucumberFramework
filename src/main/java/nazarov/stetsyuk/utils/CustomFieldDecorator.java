@@ -18,7 +18,7 @@ import java.lang.reflect.Type;
 import java.lang.reflect.Proxy;
 import java.util.List;
 
-@Component
+//@Component
 public class CustomFieldDecorator extends DefaultFieldDecorator {
 
     BasePage page;
