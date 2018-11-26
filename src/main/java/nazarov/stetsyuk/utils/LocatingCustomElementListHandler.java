@@ -3,7 +3,6 @@ package nazarov.stetsyuk.utils;
 import nazarov.stetsyuk.controllers.Element;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.pagefactory.ElementLocator;
-import org.springframework.stereotype.Component;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
@@ -11,7 +10,6 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-//@Component
 public class LocatingCustomElementListHandler implements InvocationHandler {
 
     private final ElementLocator locator;

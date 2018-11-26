@@ -1,10 +1,7 @@
 package nazarov.stetsyuk.steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.java.ru.Когда;
-import org.openqa.selenium.WebElement;
 
 
 public class ScenarioSteps extends BaseSteps {

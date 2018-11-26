@@ -9,16 +9,10 @@ import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory;
 import org.openqa.selenium.support.pagefactory.DefaultFieldDecorator;
 import org.openqa.selenium.support.pagefactory.ElementLocator;
-import org.springframework.stereotype.Component;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
-import java.lang.reflect.Proxy;
+import java.lang.reflect.*;
 import java.util.List;
 
-//@Component
 public class CustomFieldDecorator extends DefaultFieldDecorator {
 
     BasePage page;
